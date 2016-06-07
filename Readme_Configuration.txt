@@ -79,34 +79,3 @@ dc:date = "//*[starts-with(@class,'postbitlegacy')]/div[1]/span[1]/span/text()":
 sioc:content = "//*[starts-with(@class,'postbitlegacy')]/div[2]/div[2]"::@fr
 nie:htmlContent= "//*[starts-with(@class,'postbitlegacy')]/div[2]/div[2]"::rdf:HTML
 v4m:authorMetaData = "//*[starts-with(@class,'postbitlegacy')]/div[2]/div[1]/dl"::rdf:HTML
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
