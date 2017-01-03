@@ -224,7 +224,8 @@ package main;
 # A <- me <- B
 
 # create a server
-# get port number from user, otherwise consider 3128.
+# get port number from user, otherwise consider 3129.
+print "Hello, the proxy is started at the port 3129..waiting for action \n";
  my $portNumber = ':3129';
  if (@ARGV > 0)
  {
