@@ -225,13 +225,12 @@ package main;
 
 # create a server
 # get port number from user, otherwise consider 3129.
-print "Hello, the proxy is started at the port 3129..waiting for action \n";
  my $portNumber = ':3129';
  if (@ARGV > 0)
  {
      $portNumber = ':'.$ARGV[0];
  }
-          
+print "Hello, the proxy is started at the port ",$portNumber,"..waiting for action \n";          
 $S = new IO::Socket::INET( 
 	'LocalAddr' => $portNumber,
         'ReuseAddr' => 1,
