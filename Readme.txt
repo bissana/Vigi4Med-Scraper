@@ -22,6 +22,13 @@ This tool allows to :
 List of requirements
 -------------------------
 1- PHP installation. It is recommended to run the scripts from command line 
+ 1-1 Please make sure to have curl installed in the system and curl module for php also installed
+  -> In ubuntu: 
+   sudo apt-get install curl
+   sudo apt-get install php-curl
+ 1-2 Please make sur to have the DOM module installed for php
+  -> In ubuntu: sudo apt-get install php-dom
+  (Note: restart apache server after installing php modules)
 2- Perl installation for the proxy (if you want to use the proxy).
 3- Berkeley DB (if you want to use the proxy).
 
